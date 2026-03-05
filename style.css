@@ -1,0 +1,92 @@
+body{
+font-family:Segoe UI;
+margin:0;
+background:#f4f7f6;
+color:#333;
+}
+
+header{
+background:#dfe8e3;
+padding:25px;
+text-align:center;
+}
+
+nav{
+background:#a8c3b5;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+margin:12px;
+text-decoration:none;
+color:#0a3d2e;
+font-weight:bold;
+}
+
+nav a:hover{
+color:white;
+}
+
+.banner{
+height:350px;
+background:url("https://images.unsplash.com/photo-1512820790803-83ca734da794") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:40px;
+color:white;
+}
+
+.container{
+padding:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.book{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.book img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.price{
+color:red;
+font-weight:bold;
+}
+
+button{
+background:#6b9080;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+
+footer{
+background:#dfe8e3;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.chatbox{
+border:1px solid #ccc;
+height:300px;
+overflow:auto;
+background:white;
+padding:10px;
+}
